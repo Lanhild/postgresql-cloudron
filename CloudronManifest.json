@@ -1,0 +1,19 @@
+{
+    "id": "org.postgresql.cloudronapp",
+    "title": "PostgreSQL",
+    "author": "The PostgreSQL Global Development Group",
+    "description": "file://DESCRIPTION.md",
+    "tagline": "A standalone PostgreSQL database for testing purposes.",
+    "version": "0.1.0",
+    "healthCheckPath": "/",
+    "httpPort": 3000,
+    "addons": {
+        "localstorage": {},
+        "postgresql": {}
+    },
+    "manifestVersion": 2,
+    "memoryLimit": 536870912,
+    "website": "https://www.postgresql.org/",
+    "minBoxVersion": "7.3.2",
+    "icon": "file://logo.png"
+}
